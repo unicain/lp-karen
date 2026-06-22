@@ -11,6 +11,7 @@ import MapsSection from './components/MapsSection'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
+import WhatsAppButton from './components/WhatsAppButton'
 
 export default function App() {
   return (
@@ -23,6 +24,8 @@ export default function App() {
       <Experience />
       <Skills />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
+
